@@ -10,7 +10,7 @@
 
 ## Tools
   - Google Colab (Training)
-  - VS Code (RUnning final program)
+  - VS Code 
 
 ## Training YOLOv8 model
   - Open Colab and follow the steps:
@@ -56,11 +56,13 @@
   names: ['Accident','Fight','Fire','Smoke']""")
   ```
   Here `nc` is the number of classes i.e, Accident,Fire,Smoke,Fight.
+
   7. Training:
   ```
   !yolo task=detect mode=train model=[input_model_name_here] data='/content/YOLO/data.yaml' imgsz=640 batch=3 epochs=100
   ```
   Tweak `imgsz`, `batch` and `epochs` according to your will.
+  
   8. Validate:
   ```
   !yolo task=detect mode=val model='/content/drive/MyDrive/modeltesting/[input_model_name_here]' data='/content/drive/MyDrive/YOLO/data.yaml'
