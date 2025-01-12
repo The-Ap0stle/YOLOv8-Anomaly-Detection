@@ -103,7 +103,7 @@
   End If
 
   ' Display the message in a pop-up window
-  result = MsgBox(message, vbOKCancel + vbInformation, "QBot Alert")
+  result = MsgBox(message, vbOKCancel + vbInformation, "Surveillance Bot Alert")
 
   If result = vbOK Then
       ' Redirect to the desired webpage
@@ -226,6 +226,6 @@
   ```
 
 ## Disclaimer
-> Note: If you are using an newer version of YOLO, refer to the [documentation] (https://www.ultralytics.com/yolo) for the version for the inbuilt YOLO methods and functions.
+> Note: If you are using an newer version of YOLO, refer to the [documentation](https://www.ultralytics.com/yolo) for the version for the inbuilt YOLO methods and functions.
 
 This project is for educational purposes only. Use responsibly and at your own risk. Any misuse will not be the responsibility of the developers nor the distributors.
