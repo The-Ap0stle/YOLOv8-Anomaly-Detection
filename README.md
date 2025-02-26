@@ -1,5 +1,6 @@
 # Anomaly Detection using YOLOv8
-### Real world and real time automated Anomaly Detection project using YOLOv8
+Real world and real time automated Anomaly Detection project using YOLOv8
+### Documentation : [Read here](https://medium.com/@nevildomain/79010c34656b)
 
 ## Features
   - Real time detection using visual data from CCTV/surveillance cameras.
