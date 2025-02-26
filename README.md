@@ -4,13 +4,15 @@
 ## Features
   - Real time detection using visual data from CCTV/surveillance cameras.
   - Detects variety of anomalies like fire, road accidents etc, provided the dataset.
-  - Saves only the anomalous part of the surveillance video ensuring effecient storage.
+  - Saves only the anomalous part of the surveillance video ensuring effeicient storage.
   - Pop-up message in system as anomaly is detected 
   - Supports real time viewing
 
 ## Tools
   - Google Colab (Training)
-  - VS Code 
+  - VS Code
+
+## Results : 
 
 ## Training YOLOv8 model
   - Open Colab and follow the steps:
